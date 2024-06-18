@@ -6,7 +6,7 @@ const StockCalculator = dynamic(() => import("./components/stock-calculator"), {
 
 export default function Home() {
   return (
-    <div style={{ backgroundColor: "white", height: "100vh" }}>
+    <div>
       <StockCalculator />
     </div>
   );

@@ -1,0 +1,102 @@
+.main-container {
+  height: 100vh;
+}
+
+input {
+  background: none;
+  background-color: transparent !important;
+  color: aliceblue !important;
+  border-radius: 4px;
+}
+
+.styled-input {
+  padding: 10px;
+  border: 1px solid #f38377;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.styled-input:focus {
+  border-color: #e74c3c;
+  box-shadow: 0 0 5px rgba(231, 76, 60, 0.5);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.value {
+  display: block;
+  font-size: 1.2em;
+  margin-top: 5px;
+  font-weight: bold;
+  color: rgba(240, 248, 255, 0.191);
+}
+
+.my-table {
+  background-color: transparent !important;
+  color: rgb(145, 145, 145);
+}
+.my-table th {
+  background-color: transparent !important;
+  color: rgb(145, 145, 145);
+}
+.my-table td {
+  background-color: transparent !important;
+  color: rgb(145, 145, 145);
+}
+.my-table tr {
+  background-color: transparent !important;
+  color: rgb(145, 145, 145);
+  border-bottom: 2px solid #535353;
+}
+
+.sticky-footer {
+  width: 100%;
+  background-color: #f0f0f0;
+
+  text-align: center;
+}
+.submit-button {
+  width: 100%;
+  background: rgb(243, 131, 119);
+  background: linear-gradient(84deg, #f3837796 0%, #64324b 89%);
+  border: none;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.submit-button:hover {
+  transform: translateY(-1px);
+}
+
+.submit-button:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.chart {
+  height: 100% !important;
+  width: 60% !important;
+}
+
+.chart-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+hr {
+  border: none;
+  height: 1px;
+  background: rgb(243, 131, 119);
+}
